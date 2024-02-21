@@ -41,5 +41,24 @@
     "dress": "Women’s dresses",
     "special": "Special clothing",
     "hats": "Hats"
+  },
+  "mission": {
+    "mission": "Our mission",
+    "missionText": "Our mission is to integrate classics into particular trends in different fashions, allowing women to look elegant and impressive. I want to help every woman's wardrobe, which will be relevant at any time and with the environment. To do this, I create new collections and you can create your ideal image and create your own wardrobe.",
+    "values": "Values",
+    "valuesText": "Fluidity, flexibility, creativity. Our knowledge, our capabilities, our creativity to innovation, our productivity and resourcefulness give us the ability to be quick and creative. Not just selling, but also exploring new needs in the market. We can always benefit from our knowledge, as well as from harmonized production and wide-ranging production.",
+    "trust": "Partnership and trust",
+    "trustText": "Smoothness and crunchiness. Our knowledge, our capabilities, our creativity to innovation, our productivity and resourcefulness give us the ability to be smart.  Not just selling, but also exploring new needs in the market. We can always achieve a successful, short-term development process, a fast-tracking of registration documentation, as well as harmonized production and distribution.",
+    "potentional": "Creative potential and efficiency",
+    "potentialText": "The only way to achieve the best results is to create an atmosphere that motivates our students to innovate and show creative potential. Therefore, we want our colleagues to speak freely about their ideas, and if they are presented with a number of these ideas for the company, we want them to implement these ideas. All the time we are looking for new ways to please our fellow residents. We are finishing our dreams as best we can. We need to finish our job in the shortest, most efficient way possible in the shortest possible time.",
+    "order": "Custom Сlothing",
+    "orderText": "The best solution for your business",
+    "orderP": "Clothing for staff",
+    "orderPText": "The best solution for your business"
+  },
+  "exhibition": {
+    "exhibition": "Exhibition",
+    "title": "Rimini Expo CENTRE 11-13 October 2023",
+    "annual": "Annual international exhibition for the clothing industry"
   }
 }
