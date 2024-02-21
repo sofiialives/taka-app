@@ -5,5 +5,41 @@
     "contacts": "Contacts",
     "gallery": "Gallery",
     "clients": "Clients"
+  },
+
+  "hero": {
+    "title": "ABOUT US"
+  },
+
+  "stack": {
+    "who": "WHO WE ARE?",
+    "whoText": "We are a team of dedicated professionals who have been working since 2011. During this time, we have gained a large number of satisfied customers and built a reputation as a responsible manufacturer and.",
+    "what": "OUR PRODUCTS",
+    "whatText": "We have extensive experience in sewing a wide range of medical clothing, hotel clothing, knitwear and textiles. We also professionally produce costume clothing of any complexity.",
+    "technology": "OUR TECHNOLOGIES",
+    "technologyText": "We work with modern sewing technologies and we are constantly improving. Our experience and the use of modern equipment and high-quality fabrics allows us to produce competitive products that we create for you with love.",
+    "quality": "QUALITY. CERTIFICATION ",
+    "qualityText": "Our products are used in enterprises and companies in many countries. We are dedicated to continuously monitor and improve the quality of our products."
+  },
+
+  "gallery": {
+    "gallery": "Gallery",
+    "woman": "Women’s Collection",
+    "womanText": "Woman choose unique clothing to emphasize individuality",
+    "line": "Costume line",
+    "outerwear": "Outerwear",
+    "demi": "Demi-season",
+    "knitted": "Knitted line",
+    "suit": "Suit line",
+    "corporate": "Corporate group",
+    "individual": "Individual tailoring",
+    "costume": "Costume group",
+    "costumeCloth": "Costume clothing",
+    "corporateCloth": "Corporate clothing",
+    "personnel": "Sewing clothes for company personnel",
+    "staff": "Staff clothing",
+    "dress": "Women’s dresses",
+    "special": "Special clothing",
+    "hats": "Hats"
   }
 }

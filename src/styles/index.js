@@ -17,12 +17,12 @@ import "./index.css";
 export const GlobalStyle = createGlobalStyle`
 :root{
      /* COLORS */
-     --text-color: #555555,
-     --black-text-color: #1D1D1D,
-     --bg-color: #fff,
-     --grey-color: #676767,
-     --bg-grey: #E9E9E9,
-     --black-color: #000000,
+     --text-color: #555555;
+     --black-text-color: #1D1D1D;
+     --bg-color: #fff;
+     --grey-color: #676767;
+     --bg-grey: #E9E9E9;
+     --black-color: #000;
      --slider-color: #565555;
      --slider-bg: #D9D9D9;
      --text-footer: #5F5A56;
@@ -30,78 +30,77 @@ export const GlobalStyle = createGlobalStyle`
      --inst-icon: #B05E5E;
      --header-gradient: linear-gradient(180deg, rgba(173, 165, 165, 0.4233) 131.91%, rgba(217, 217, 217, 0) 338.3%);
  
-
       /* FONTS */
       --font-size: 20px;
       --line-height: 1.2;
 
-      --inter-font-light: ${InterLight}
-      --inter-font-regular: ${InterRegular}
-      --inter-font-medium: ${InterMedium}
+      --inter-font-light: ${InterLight};
+      --inter-font-regular: ${InterRegular};
+      --inter-font-medium: ${InterMedium};
       --inter-font-semibold: ${InterSemiBold};
       --inter-font-bold: ${InterBold};
-      --inter-font-black: ${InterBlack}
+      --inter-font-black: ${InterBlack};
 
       --poppins-font-regular: ${PoppinsRegular};
       --poppins-font-extrabold: ${PoppinsExtraBold};
 
-      --arimo-font-bold: ${ArimoBold}
+      --arimo-font-bold: ${ArimoBold};
 
-      --montserrat-font-bold: ${MontserratRegular}
+      --montserrat-font-bold: ${MontserratRegular};
 
-      --prompt-font-regular: ${PromptRegular}
+      --prompt-font-regular: ${PromptRegular};
 
-      --lato-font-regular: ${LatoRegular}
+      --lato-font-regular: ${LatoRegular};
 }
 
 /* FONTS */
 
 @font-face {
     font-family: "Inter", sans-serif;
-    src: url(${InterRegular}) format('truetype'),
+    src: url(${InterRegular}) format('truetype');
 }
 @font-face {
     font-family: "Inter", sans-serif;
-    src: url(${InterMedium}) format('truetype'),
+    src: url(${InterMedium}) format('truetype');
 }
 @font-face {
     font-family: "Inter", sans-serif;
-    src: url(${InterBlack}) format('truetype'),
+    src: url(${InterBlack}) format('truetype');
 }
 @font-face {
     font-family: "Inter", sans-serif;
-    src: url(${InterBold}) format('truetype'),
+    src: url(${InterBold}) format('truetype');
 }
 @font-face {
     font-family: "Inter", sans-serif;
-    src: url(${InterLight}) format('truetype'),
+    src: url(${InterLight}) format('truetype');
 }
 @font-face {
     font-family: "Inter", sans-serif;
-    src: url(${InterSemiBold}) format('truetype'),
+    src: url(${InterSemiBold}) format('truetype');
 }
 @font-face {
     font-family: "Poppins", sans-serif;
-    src: url(${PoppinsRegular}) format('truetype'),
+    src: url(${PoppinsRegular}) format('truetype');
 }
 @font-face {
     font-family: "Poppins", sans-serif;
-    src: url(${PoppinsExtraBold}) format('truetype'),
+    src: url(${PoppinsExtraBold}) format('truetype');
 }
 @font-face {
     font-family: "Arimo", sans-serif;
-    src: url(${ArimoBold}) format('truetype'),
+    src: url(${ArimoBold}) format('truetype');
 }
 @font-face {
-    font-family: "Montserrat", sans-serif;;
-    src: url(${MontserratRegular}) format('truetype'),
+    font-family: "Montserrat", sans-serif;
+    src: url(${MontserratRegular}) format('truetype');
 }
 @font-face {
-    font-family: "Prompt", sans-serif;;
-    src: url(${PromptRegular}) format('truetype'),
+    font-family: "Prompt", sans-serif;
+    src: url(${PromptRegular}) format('truetype');
 }
 @font-face {
-    font-family: "Lato", sans-serif;;
-    src: url(${LatoRegular}) format('truetype'),
+    font-family: "Lato", sans-serif;
+    src: url(${LatoRegular}) format('truetype');
 }
 `;
