@@ -31,7 +31,7 @@ const PhotoSection = () => {
             <h3 className="photo-title">{image.title}</h3>
             <p className="photo-text">{image.text}</p>
           </PhotoTextDiv>
-          <img src={image.img} alt="cloth" />
+          <img src={image.img} alt="cloth" className="image" />
         </PhotoItem>
       ))}
     </PhotoList>

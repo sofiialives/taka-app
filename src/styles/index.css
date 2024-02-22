@@ -14,41 +14,31 @@ body {
 .container {
   padding: 0 15px;
   margin: 0 auto;
-  max-width: 426px;
+  max-width: 307px;
 }
 .footer-container {
   padding: 0 15px;
   margin: 0 auto;
-  max-width: 540px;
+  max-width: 319px;
 }
 .section {
   padding: 60px 0;
 }
 .hero-section {
-  padding: 164px 0 50px;
+  padding: 15px 0 0 0;
 }
-
-@media only screen and (min-width: 768px) {
-  .container {
-    max-width: 766px;
-  }
-  .section {
-    padding: 84px 0;
-  }
-  .hero-section {
-    padding: 230px 0 70px;
-  }
-  .footer-container {
-    max-width: 880px;
-  }
-}
-
 @media only screen and (min-width: 1440px) {
+  .section {
+    padding: 90px 0;
+  }
   .container {
     max-width: 1210px;
   }
   .footer-container {
     max-width: 1324px;
+  }
+  .hero-section {
+    padding: 164px 0 50px;
   }
 }
 
