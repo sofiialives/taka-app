@@ -1,4 +1,4 @@
-import{u as z,a as q,j as v,c as se,r as K,g as ir,b as or}from"./index-DTZ8BBbb.js";const ar="/taka-app/assets/hero-DUZjNzXb.jpg",lr=z.h1`
+import{u as z,a as q,j as v,c as se,r as K,g as ir,b as or}from"./index-Czk4mF8w.js";const ar="/taka-app/assets/hero-DUZjNzXb.jpg",lr=z.h1`
   font-family: var(--lato-font-regular);
   color: var(--bg-color);
   font-size: 48px;
