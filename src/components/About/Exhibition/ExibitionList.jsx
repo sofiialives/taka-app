@@ -1,9 +1,9 @@
-import first from "../../../assets/images/exfirst.png";
-import second from "../../../assets/images/exsecond.png";
-import third from "../../../assets/images/exthird.png";
-import fourth from "../../../assets/images/exfourth.png";
-import fifth from "../../../assets/images/exfifth.png";
-import sixth from "../../../assets/images/exsixth.png";
+import first from "assets/images/exfirst.png";
+import second from "assets/images/exsecond.png";
+import third from "assets/images/exthird.png";
+import fourth from "assets/images/exfourth.png";
+import fifth from "assets/images/exfifth.png";
+import sixth from "assets/images/exsixth.png";
 import { ExList } from "./Exibition.styled";
 
 const ExibitionList = () => {

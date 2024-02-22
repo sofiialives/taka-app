@@ -26,7 +26,7 @@ const StackList = () => {
       {items.map((item, index) => (
         <li key={index}>
           <StackTitle>{item.title}</StackTitle>
-          <p>{item.text}</p>
+          <p className="stack-text">{item.text}</p>
         </li>
       ))}
     </StackListStyled>

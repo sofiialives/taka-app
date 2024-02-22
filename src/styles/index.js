@@ -29,6 +29,10 @@ export const GlobalStyle = createGlobalStyle`
      --text-blue: #024E82;
      --inst-icon: #B05E5E;
      --submit-color: #F5F5F5;
+     --stack-color: #5B5B5B;
+     --black-mobile: #1D1D1D;
+     --inst-icon: #b05e5e;
+     --footer-bg: #7B7B7B;
      --header-gradient: linear-gradient(180deg, rgba(173, 165, 165, 0.4233) 131.91%, rgba(217, 217, 217, 0) 338.3%);
  
       /* FONTS */
@@ -47,7 +51,7 @@ export const GlobalStyle = createGlobalStyle`
 
       --arimo-font-bold: ${ArimoBold};
 
-      --montserrat-font-bold: ${MontserratRegular};
+      --montserrat-font-regular: ${MontserratRegular};
 
       --prompt-font-regular: ${PromptRegular};
 

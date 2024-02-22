@@ -1,14 +1,17 @@
 import { useTranslation } from "react-i18next";
-import { FooterTitle } from "../Lists/Lists.styled";
 import Icon from "../../Icon";
-import { ConnectionContainer, ConnectionTitle } from "./Connection.styled";
+import {
+  ConnectionContainer,
+  ConnectionText,
+  ConnectionTitle,
+} from "./Connection.styled";
 
 const Connection = () => {
   const { t } = useTranslation();
   return (
     <ConnectionContainer>
-      <FooterTitle>{t("footer.connected")}</FooterTitle>
-      <ConnectionTitle>{t("footer.like")}</ConnectionTitle>
+      <ConnectionTitle>{t("footer.connected")}</ConnectionTitle>
+      <ConnectionText>{t("footer.like")}</ConnectionText>
       <a
         href="https://www.instagram.com/takagamma/"
         target="_blank"
@@ -16,6 +19,7 @@ const Connection = () => {
       >
         <Icon id="inst" className="inst-icon" />
       </a>
+      <p className="copyright">ⓒ 2024 TakaIE All rights reserved.</p>
     </ConnectionContainer>
   );
 };
