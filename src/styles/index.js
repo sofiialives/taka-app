@@ -28,6 +28,7 @@ export const GlobalStyle = createGlobalStyle`
      --text-footer: #5F5A56;
      --text-blue: #024E82;
      --inst-icon: #B05E5E;
+     --submit-color: #F5F5F5;
      --header-gradient: linear-gradient(180deg, rgba(173, 165, 165, 0.4233) 131.91%, rgba(217, 217, 217, 0) 338.3%);
  
       /* FONTS */

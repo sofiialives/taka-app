@@ -4,7 +4,8 @@
     "about": "About",
     "contacts": "Contacts",
     "gallery": "Gallery",
-    "clients": "Clients"
+    "clients": "Clients",
+    "nav": "Navigation"
   },
 
   "hero": {
@@ -60,5 +61,14 @@
     "exhibition": "Exhibition",
     "title": "Rimini Expo CENTRE 11-13 October 2023",
     "annual": "Annual international exhibition for the clothing industry"
+  },
+  "footer": {
+    "address": "10 Academican Korolyov Avenue, Kyiv, Ukraine 03148",
+    "privacy": "Privacy Policy Terms & Conditions",
+    "connected": "Stay Connected",
+    "like": "LIKE US ON INSTAGRAM",
+    "signup": "SIGN UP FOR OUR NEWSLETTER",
+    "email": "enter your email address",
+    "submit": "Submit"
   }
 }

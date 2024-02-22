@@ -1,9 +1,16 @@
 import { NavLink, Outlet } from "react-router-dom";
 import HeaderNav from "../../components/Header/Header";
-import Footer from "../../components/Footer/Footer";
 import Icon from "../../components/Icon";
 import Language from "../../components/Header/Language/Language";
-import { HeaderContainer, HeaderStyled } from "./Layout.styled";
+import {
+  FooterContainer,
+  FooterStyled,
+  HeaderContainer,
+  HeaderStyled,
+} from "./Layout.styled";
+import FooterList from "../../components/Footer/Lists/FooterList";
+import Logo from "../../components/Footer/Logo";
+import Connection from "../../components/Footer/Connection/Connection";
 
 const Layout = () => {
   return (
@@ -20,9 +27,13 @@ const Layout = () => {
       <main>
         <Outlet />
       </main>
-      <footer>
-        <Footer />
-      </footer>
+      <FooterStyled>
+        <FooterContainer className="footer-container">
+          <FooterList />
+          <Logo />
+          <Connection />
+        </FooterContainer>
+      </FooterStyled>
     </>
   );
 };

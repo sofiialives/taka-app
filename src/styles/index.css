@@ -16,6 +16,11 @@ body {
   margin: 0 auto;
   max-width: 426px;
 }
+.footer-container {
+  padding: 0 15px;
+  margin: 0 auto;
+  max-width: 540px;
+}
 .section {
   padding: 60px 0;
 }
@@ -33,11 +38,17 @@ body {
   .hero-section {
     padding: 230px 0 70px;
   }
+  .footer-container {
+    max-width: 880px;
+  }
 }
 
 @media only screen and (min-width: 1440px) {
   .container {
     max-width: 1210px;
+  }
+  .footer-container {
+    max-width: 1324px;
   }
 }
 
@@ -53,4 +64,12 @@ body {
 
 .slick-list {
   overflow: visible !important;
+}
+main {
+  flex-grow: 1;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
