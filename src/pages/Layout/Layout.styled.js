@@ -14,3 +14,15 @@ export const HeaderContainer = styled.div`
     height: 35px;
   }
 `;
+
+export const FooterStyled = styled.header`
+  background: var(--slider-bg);
+`;
+
+export const FooterContainer = styled.div`
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 41px 0 26px;
+`;
