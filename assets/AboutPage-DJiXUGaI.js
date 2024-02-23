@@ -1,6 +1,7 @@
-import{u as s,d as i,a as n,j as e,I as g,S as r,r as c}from"./index-BpNWsyIA.js";const m="/taka-app/assets/hero-DUZjNzXb.jpg",x=s.h1`
+import{u as s,d as i,a as n,j as e,I as g,S as r,r as c}from"./index-Dv8SNtv9.js";const m="/taka-app/assets/hero-DUZjNzXb.jpg",x=s.h1`
   display: none;
   @media ${i.desktop} {
+    display: block;
     font-family: var(--lato-font-regular);
     color: var(--bg-color);
     font-size: 48px;
@@ -22,6 +23,9 @@ import{u as s,d as i,a as n,j as e,I as g,S as r,r as c}from"./index-BpNWsyIA.js
   .logo-icon {
     width: 153px;
     height: 47px;
+  }
+  @media ${i.desktop} {
+    display: none;
   }
 `,f="/taka-app/assets/hero-mobile-IxwLTDQ3.png",$=()=>{const{t}=n();return e.jsx(h,{className:"hero-section",children:e.jsxs("div",{className:"container",children:[e.jsx(x,{children:t("hero.title")}),e.jsxs(d,{children:[e.jsx(g,{id:"logo",className:"logo-icon"}),e.jsx("img",{src:f,alt:"woman"})]})]})})},y="/taka-app/assets/woman-CkyI9V5-.png",u=s.div`
   display: flex;
