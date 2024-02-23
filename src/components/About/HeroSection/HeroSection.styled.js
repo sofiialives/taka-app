@@ -5,6 +5,7 @@ import { device } from "../../../styles/deviceSize";
 export const HeroTitle = styled.h1`
   display: none;
   @media ${device.desktop} {
+    display: block;
     font-family: var(--lato-font-regular);
     color: var(--bg-color);
     font-size: 48px;
@@ -30,5 +31,8 @@ export const HeroMobileDiv = styled.div`
   .logo-icon {
     width: 153px;
     height: 47px;
+  }
+  @media ${device.desktop} {
+    display: none;
   }
 `;

@@ -48,6 +48,9 @@ export const ConnectionContainer = styled.div`
       margin-bottom: 0;
       fill: var(--inst-icon);
     }
+    .copyright {
+      display: none;
+    }
   }
 `;
 
