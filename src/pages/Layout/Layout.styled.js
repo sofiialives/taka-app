@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { device } from "styles/deviceSize";
 
 export const HeaderStyled = styled.header`
+  display: ${({ hide }) => (hide ? "none" : "block")};
   @media ${device.desktop} {
     background: var(--header-gradient);
   }
@@ -26,7 +27,7 @@ export const HeaderContainer = styled.div`
   }
 `;
 
-export const FooterStyled = styled.header`
+export const FooterStyled = styled.footer`
   background: var(--footer-bg);
   @media ${device.desktop} {
     background: var(--slider-bg);
