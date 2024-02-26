@@ -10,17 +10,13 @@ import ninth from "assets/images/ninthclient.png";
 import tenth from "assets/images/tenthclient.png";
 import { useTranslation } from "react-i18next";
 import {
-  ContactSection,
-  NavLinkStyled,
-} from "../Contacts/ContactForm/ContactForm.styled";
-import Icon from "../Icon";
-import {
-  ClientsText,
   FirstList,
   ImageWidth,
+  ImageWidthFirst,
   ImageWidthSecond,
   RestList,
 } from "./Clients.styled";
+import Bar from "../Bar/Bar";
 
 const ClientsList = () => {
   const { t } = useTranslation();
@@ -38,30 +34,25 @@ const ClientsList = () => {
   ];
 
   const firstClients = clients.slice(0, 4);
-  const resClients = clients.slice(4);
+  const restClients = clients.slice(4);
+
   return (
-    <ContactSection className="section">
-      <div className="container">
-        <NavLinkStyled to="/">
-          <Icon id="logo" className="logo-icon" />
-        </NavLinkStyled>
-        <ClientsText>{t("clients.clients")}</ClientsText>
-        <FirstList>
-          {firstClients.map((item, index) => (
-            <ImageWidth key={index}>
-              <img src={item} alt="client" />
-            </ImageWidth>
-          ))}
-        </FirstList>
-        <RestList>
-          {resClients.map((item, index) => (
-            <li key={index}>
-              <ImageWidthSecond src={item} alt="client" />
-            </li>
-          ))}
-        </RestList>
-      </div>
-    </ContactSection>
+    <Bar title={t("clients.clients")}>
+      <FirstList>
+        {firstClients.map((item, index) => (
+          <ImageWidth key={index}>
+            <ImageWidthFirst src={item} alt={`client-${index}`} />
+          </ImageWidth>
+        ))}
+      </FirstList>
+      <RestList>
+        {restClients.map((item, index) => (
+          <li key={index}>
+            <ImageWidthSecond src={item} alt={`client-${index + 4}`} />
+          </li>
+        ))}
+      </RestList>
+    </Bar>
   );
 };
 

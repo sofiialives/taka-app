@@ -17,7 +17,7 @@ const HeaderNav = () => {
   const navigation = [
     { route: "/", component: `${t("header.home")}` },
     { route: "/about", component: `${t("header.about")}` },
-    { route: "/gallery", component: `${t("header.gallery")}` },
+    { route: "/reviews", component: `${t("header.reviews")}` },
     { route: "/clients", component: `${t("header.clients")}` },
     { route: "/contacts", component: `${t("header.contacts")}` },
   ];

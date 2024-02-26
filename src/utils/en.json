@@ -3,7 +3,7 @@
     "home": "Home",
     "about": "About",
     "contacts": "Contacts",
-    "gallery": "Gallery",
+    "reviews": "Reviews",
     "clients": "Clients",
     "nav": "Navigation"
   },
@@ -80,6 +80,12 @@
   },
   "clients": {
     "clients": "Our clients"
+  },
+  "reviews": {
+    "reviews": "Testimonials",
+    "man": "Mrs. Tetyana, I sincerely thank you and your entire team for the high-quality medical clothes made for employees of the National Cancer Institute. All medical gowns and surgical suits are extremely comfortable and made of high-quality fabric. Thank you! Special thanks for the high-quality printed and embroidered emblem of the institute. Such branding of the cloth will further unite the team in our patient-oriented work with respect to the entire team, Deputy General Director of the National Cancer Institute, Andrii TURCHYN.",
+    "woman": "I am very satisfied with the products sewn by this company. We have been working with Tanya for more than six years. This person feels needs of her clients. They sewed us the uniforms for medical employees. All clothes are of high quality, and comfortable, the fabric is pleasant for the body. The last product was a business suit, which was sewn for me without any fitting. The suit is made of high quality, I feel comfortable working in it.Thank you for your products.",
+    "company": "Dear Tetyana Mykolaivna, For a long time, almost 13 years, we have had a successful joint experience of cooperation with your company. The availability of uniforms for employees is a must-have for any business that has personal communication with customers. People who look professional feel professional and as a result, they act professionally. Not to mention that a high-quality company uniform brings respect and trust. I can describe the level of the company's services as highly professional and reliable. I can recommend you to other clients and companies as a reliable partner that guarantees fulfillment of their obligations and the high quality of services provided. In the future, we intend to continue our cooperation."
   },
   "footer": {
     "address": "10 Academican Korolyov Avenue, Kyiv, Ukraine 03148",
