@@ -1,4 +1,4 @@
-import{u as t,d as o,b as p,r as n,c as f,j as e,L as h,I as c,N as g}from"./index-4k2B_2an.js";import{i as u}from"./photoArray-CsILat6S.js";const b=t.div`
+import{a as t,d as o,b as p,r as n,c as f,j as e,L as h,I as c,N as g}from"./index-D5cf2zl_.js";import{i as u}from"./photoArray-BKznEBO8.js";const b=t.div`
   .back-icon {
     width: 24px;
     height: 24px;
