@@ -17,6 +17,7 @@ export const HeroStyled = styled.section`
   padding: 0;
   padding-top: 32px;
   @media ${device.desktop} {
+    padding: 230px 0 50px;
     background-image: url(${hero});
     background-repeat: no-repeat;
     background-position: center;
