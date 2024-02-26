@@ -1,4 +1,4 @@
-import{a as o,d as e}from"./index-D5cf2zl_.js";const a="/taka-app/assets/hero-DUZjNzXb.jpg",t=o.h1`
+import{a as o,d as e}from"./index-DLM_LoTc.js";const a="/taka-app/assets/hero-DUZjNzXb.jpg",t=o.h1`
   display: none;
   @media ${e.desktop} {
     display: block;
@@ -8,6 +8,8 @@ import{a as o,d as e}from"./index-D5cf2zl_.js";const a="/taka-app/assets/hero-DU
     line-height: 1;
   }
 `,n=o.section`
+  padding: 0;
+  padding-top: 32px;
   @media ${e.desktop} {
     background-image: url(${a});
     background-repeat: no-repeat;

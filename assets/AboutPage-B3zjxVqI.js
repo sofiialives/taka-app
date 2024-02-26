@@ -1,4 +1,4 @@
-import{u as n,j as e,I as g,a as s,d as i,S as r,b as m,L as x,r as c}from"./index-D5cf2zl_.js";import{H as h,a as d,b as f}from"./HeroSection.styled-K0bIHf_H.js";import{i as y}from"./photoArray-BKznEBO8.js";const $="/taka-app/assets/hero-mobile-IxwLTDQ3.png",u=()=>{const{t}=n();return e.jsx(h,{className:"hero-section",children:e.jsxs("div",{className:"container",children:[e.jsx(d,{children:t("hero.title")}),e.jsxs(f,{children:[e.jsx(g,{id:"logo",className:"logo-icon"}),e.jsx("img",{src:$,alt:"woman"})]})]})})},k="/taka-app/assets/woman-CkyI9V5-.png",j=s.div`
+import{u as n,j as e,I as g,a as s,d as i,S as r,b as m,L as x,r as c}from"./index-DLM_LoTc.js";import{H as h,a as d,b as f}from"./HeroSection.styled-BqWFDsTN.js";import{i as y}from"./photoArray-DVwLZvwN.js";const $="/taka-app/assets/hero-mobile-IxwLTDQ3.png",u=()=>{const{t}=n();return e.jsx(h,{className:"hero-section",children:e.jsxs("div",{className:"container",children:[e.jsx(d,{children:t("hero.title")}),e.jsxs(f,{children:[e.jsx(g,{id:"logo",className:"logo-icon"}),e.jsx("img",{src:$,alt:"woman"})]})]})})},k="/taka-app/assets/woman-CkyI9V5-.png",j=s.div`
   display: flex;
   gap: 135px;
 `,w=s.h2`

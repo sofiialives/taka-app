@@ -1,4 +1,4 @@
-import{a as n,d as a,N as s,u as i,j as e}from"./index-D5cf2zl_.js";import{E as o}from"./EmailList-BQ5l7qwx.js";import{a as r}from"./HeroSection.styled-K0bIHf_H.js";const c="/taka-app/assets/emailSuccess-en_27Jf6.jpg",l=n.section`
+import{a as n,d as a,N as s,u as i,j as e}from"./index-DLM_LoTc.js";import{E as o}from"./EmailList-DuV7bpA3.js";import{a as r}from"./HeroSection.styled-BqWFDsTN.js";const c="/taka-app/assets/emailSuccess-en_27Jf6.jpg",l=n.section`
   background-image: url(${c});
   background-repeat: no-repeat;
   background-size: cover;
