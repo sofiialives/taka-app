@@ -1,9 +1,11 @@
+import ClientsList from "components/Clients/Clients";
+
 const Clientspage = () => {
   return (
-    <div>
-      Clientspage
-    </div>
-  )
-}
+    <section>
+      <ClientsList />
+    </section>
+  );
+};
 
-export default Clientspage
+export default Clientspage;

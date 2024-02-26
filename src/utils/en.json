@@ -78,6 +78,9 @@
     "connectText": "You can get in touch with us on this provided email.",
     "question": "If you have any query or any type of suggestion, you can contact us here. We would love to hear from you."
   },
+  "clients": {
+    "clients": "Our clients"
+  },
   "footer": {
     "address": "10 Academican Korolyov Avenue, Kyiv, Ukraine 03148",
     "privacy": "Privacy Policy Terms & Conditions",
