@@ -1,4 +1,4 @@
-import{a as t,d as o,N as a}from"./index-DLM_LoTc.js";const n=t.h2`
+import{a as t,d as o,N as a}from"./index-DxDQkIBn.js";const n=t.h2`
   font-family: var(--arimo-font-bold);
   font-weight: 700;
   font-size: 32px;
