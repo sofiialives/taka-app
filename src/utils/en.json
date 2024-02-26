@@ -9,7 +9,8 @@
   },
 
   "hero": {
-    "title": "ABOUT US"
+    "title": "ABOUT US",
+    "contacts": "CONTACT US"
   },
 
   "stack": {
@@ -64,6 +65,18 @@
     "exhibition": "Exhibition",
     "title": "Rimini Expo CENTRE 11-13 October 2023",
     "annual": "Annual international exhibition for the clothing industry"
+  },
+  "contacts": {
+    "message": "Message",
+    "name": "Name",
+    "send": "Send",
+    "notifySuccess": "Message sent. We’ll contact you soon.",
+    "notifyError": "An error occurred",
+    "visit": "Visit Us",
+    "connect": "Get In Touch",
+    "phone": "Phone",
+    "connectText": "You can get in touch with us on this provided email.",
+    "question": "If you have any query or any type of suggestion, you can contact us here. We would love to hear from you."
   },
   "footer": {
     "address": "10 Academican Korolyov Avenue, Kyiv, Ukraine 03148",

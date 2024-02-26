@@ -37,6 +37,7 @@ export const GalleryText = styled.p`
 export const GalleryStyled = styled.section`
   padding: 0;
   @media ${device.desktop} {
+    padding: 90px 0;
     background-color: var(--bg-grey);
   }
 `;

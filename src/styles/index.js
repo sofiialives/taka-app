@@ -33,6 +33,9 @@ export const GlobalStyle = createGlobalStyle`
      --black-mobile: #1D1D1D;
      --inst-icon: #b05e5e;
      --footer-bg: #7B7B7B;
+     --form-btn: #407398;
+     --form-input: #C8C7C7;
+     --black-contact: #3A3939;
      --header-gradient: linear-gradient(180deg, rgba(173, 165, 165, 0.4233) 131.91%, rgba(217, 217, 217, 0) 338.3%);
  
       /* FONTS */
