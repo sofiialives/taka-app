@@ -14,6 +14,8 @@ export const HeroTitle = styled.h1`
 `;
 
 export const HeroStyled = styled.section`
+  padding: 0;
+  padding-top: 32px;
   @media ${device.desktop} {
     background-image: url(${hero});
     background-repeat: no-repeat;
