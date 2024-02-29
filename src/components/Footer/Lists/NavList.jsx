@@ -7,7 +7,7 @@ const NavList = () => {
   const navigation = [
     { to: "/", text: `${t("header.home")}` },
     { to: "/about", text: `${t("header.about")}` },
-    { to: "/gallery", text: `${t("header.gallery")}` },
+    { to: "/reviews", text: `${t("header.reviews")}` },
     { to: "/clients", text: `${t("header.clients")}` },
     { to: "/contacts", text: `${t("header.contacts")}` },
   ];

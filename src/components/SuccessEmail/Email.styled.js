@@ -1,12 +1,21 @@
 import styled from "styled-components";
 import image from "assets/images/emailSuccess.jpg";
-import { device } from "../../styles/deviceSize";
+import mobImage from "assets/images/mobileemail.png";
+import { device } from "styles/deviceSize";
 import { NavLink } from "react-router-dom";
 
 export const EmailContainer = styled.section`
-  background-image: url(${image});
+  position: relative;
+  background-image: url(${mobImage});
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  background-position: center;
+  margin-top: 80px;
+  @media ${device.desktop} {
+    background-image: url(${image});
+    background-size: cover;
+    margin-top: 0;
+  }
 `;
 
 export const EmailBtn = styled(NavLink)`
@@ -28,19 +37,19 @@ export const EmailBtn = styled(NavLink)`
 `;
 
 export const TextEmailStyled = styled.h2`
-  text-align: center;
-  font-family: var(--inter-font-regular);
+  font-family: var(--arimo-font-bold);
+  font-weight: 700;
   font-size: 20px;
   line-height: 1.7;
-  color: var(--black-color);
+  color: var(--stack-color);
+  text-align: center;
 
   @media ${device.desktop} {
     text-align: start;
     margin: 0;
-    font-family: var(--arimo-font-bold);
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.3;
+    color: var(--black-color);
   }
 `;
 
@@ -49,5 +58,20 @@ export const TextContainer = styled.div`
     display: flex;
     align-items: center;
     gap: 52px;
+  }
+`;
+
+export const NavLinkStyled = styled(NavLink)`
+  position: absolute;
+  top: -48px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  .logo-icon {
+    width: 88px;
+    height: 26px;
+  }
+  @media ${device.desktop} {
+    display: none;
   }
 `;
