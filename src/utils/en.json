@@ -8,6 +8,19 @@
     "nav": "Navigation"
   },
 
+  "home": {
+    "btn": "Continue",
+    "sew": "Sew It, Love It, Wear It",
+    "dream": "Stitching Dreams into Reality",
+    "success": "Sew Your Way to Success",
+    "art": "Where Sewing Becomes Art",
+    "advantagy": "OUR ADVANTAGES",
+    "high": "High competitiveness of products",
+    "approach": "Individual approach",
+    "deadline": "Deadlines compliance",
+    "design": "Your own design"
+  },
+
   "hero": {
     "title": "ABOUT US",
     "contacts": "CONTACT US"

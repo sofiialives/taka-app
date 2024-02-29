@@ -3,9 +3,8 @@ import { device } from "styles/deviceSize";
 
 export const HeaderStyled = styled.header`
   display: ${({ hide }) => (hide ? "none" : "block")};
-  @media ${device.desktop} {
-    background: var(--header-gradient);
-  }
+  background: ${({ isHome }) =>
+    isHome ? "var(--bg-color)" : "var(--header-gradient)"};
 `;
 
 export const HeaderContainer = styled.div`
@@ -28,6 +27,7 @@ export const HeaderContainer = styled.div`
 `;
 
 export const FooterStyled = styled.footer`
+  display: ${({ isHome }) => (isHome ? "none" : "block")};
   background: var(--footer-bg);
   @media ${device.desktop} {
     background: var(--slider-bg);

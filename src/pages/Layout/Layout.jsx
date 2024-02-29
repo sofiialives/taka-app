@@ -12,39 +12,58 @@ import FooterList from "../../components/Footer/Lists/FooterList";
 import Logo from "../../components/Footer/Logo";
 import Connection from "../../components/Footer/Connection/Connection";
 import { useEffect, useState } from "react";
+import { useMediaQuery } from "react-responsive";
 
 const Layout = () => {
   const location = useLocation();
   const [hideHeader, setHideHeader] = useState(false);
+  const [isHome, setIsHome] = useState(false);
+  const [hideScroll, setHideScroll] = useState(false);
+
+  const isDesktop = useMediaQuery({
+    query: "(min-width: 1440px)",
+  });
+
+  const isMobile = useMediaQuery({
+    query: "(max-width: 1439px)",
+  });
 
   useEffect(() => {
-    const handleResize = () => {
-      setHideHeader(
-        location.pathname.startsWith("/about/") && window.innerWidth < 1440
-      );
-    };
+    if (location.pathname === "/about/" && isMobile) {
+      setHideHeader(true);
+    }
 
-    window.addEventListener("resize", handleResize);
+    if (isDesktop && location.pathname === "/") {
+      setIsHome(true);
+    } else {
+      setIsHome(false);
+    }
 
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, [location.pathname]);
+    if (!isDesktop) {
+      setIsHome(true);
+    }
+
+    if (location.pathname === "/") {
+      setHideScroll(true);
+    } else {
+      setHideScroll(false);
+    }
+  }, [isDesktop, isMobile, location.pathname, hideScroll]);
   return (
     <>
-      <HeaderStyled hide={hideHeader}>
+      <HeaderStyled hide={hideHeader} isHome={isHome}>
         <HeaderContainer className="container">
           <NavLink to="/">
             <Icon className="logo-icon" id="logo" />
           </NavLink>
-          <HeaderNav />
-          <Language />
+          <HeaderNav hideScroll={hideScroll} />
+          <Language isHome={isHome}/>
         </HeaderContainer>
       </HeaderStyled>
       <main>
         <Outlet />
       </main>
-      <FooterStyled>
+      <FooterStyled isHome={hideScroll}>
         <FooterContainer className="footer-container">
           <FooterList />
           <Logo />

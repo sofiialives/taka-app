@@ -9,18 +9,22 @@ import {
   AboutTitleId,
   IconList,
 } from "./About.styled";
+import { useMediaQuery } from "react-responsive";
 
 const AboutId = () => {
   const location = useLocation();
   const backLinkHref = useRef(location.state?.from ?? "/");
   const { id } = useParams();
   const [isLargeScreen, setIsLargeScreen] = useState(false);
+  const isDesktop = useMediaQuery({
+    query: "(min-width: 1440px)",
+  });
 
   const selectedImage = images.find((image) => image.id === Number(id));
 
   useEffect(() => {
     const handleResize = () => {
-      setIsLargeScreen(window.innerWidth >= 1440);
+      setIsLargeScreen(isDesktop);
     };
 
     window.addEventListener("resize", handleResize);
@@ -28,7 +32,7 @@ const AboutId = () => {
     return () => {
       window.removeEventListener("resize", handleResize);
     };
-  }, []);
+  }, [isDesktop]);
 
   if (!selectedImage) return "Image is not defined";
 

@@ -7,17 +7,14 @@ import {
   ExibitionStyled,
 } from "./Exibition.styled";
 import ExibitionScroll from "./ExibitionScroll";
-import { useEffect, useState } from "react";
+import { useMediaQuery } from "react-responsive";
 
 const Exhibition = () => {
   const { t } = useTranslation();
-  const [isDesktop, setIsDesktop] = useState(false);
+  const isDesktop = useMediaQuery({
+    query: "(min-width: 1440px)",
+  });
 
-  useEffect(() => {
-    const handleResize = () => setIsDesktop(window.innerWidth >= 1440);
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
   return (
     <ExibitionStyled className="section">
       <div className="container">

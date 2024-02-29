@@ -33,6 +33,6 @@ export const ExList = styled.ul`
   gap: 20px;
 `;
 
-export const ExibitionStyled = styled.section`
+export const ExibitionStyled = styled.div`
   background-color: var(--bg-grey);
 `;
