@@ -1,4 +1,4 @@
-import{u as i,d as a,j as o,I as s}from"./index-BJbLTaHr.js";import{C as n,N as r}from"./ContactForm.styled-DGiC6alW.js";const c=i.h2`
+import{u as i,d as a,j as o,I as s}from"./index-3TRxtfpr.js";import{C as n,N as r}from"./ContactForm.styled-C2ZD4EDV.js";const c=i.h2`
   position: relative;
   font-family: var(--arimo-font-bold);
   font-weight: 700;
