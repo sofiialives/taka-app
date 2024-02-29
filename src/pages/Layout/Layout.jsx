@@ -43,7 +43,11 @@ const Layout = () => {
       setIsHome(true);
     }
 
-    if (location.pathname === "/") {
+    if (
+      location.pathname === "/" ||
+      ((location.pathname === "/about/0" || location.pathname === "/about/3") &&
+        isMobile)
+    ) {
       setHideScroll(true);
     } else {
       setHideScroll(false);
@@ -57,7 +61,7 @@ const Layout = () => {
             <Icon className="logo-icon" id="logo" />
           </NavLink>
           <HeaderNav hideScroll={hideScroll} />
-          <Language isHome={isHome}/>
+          <Language isHome={isHome} />
         </HeaderContainer>
       </HeaderStyled>
       <main>
