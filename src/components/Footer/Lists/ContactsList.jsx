@@ -21,7 +21,7 @@ const ContactsList = () => {
   return (
     <ul>
       {array.map((item, index) => (
-        <li key={index}>
+        <li key={index} style={{ width: "240px" }}>
           <FooterLinks
             href={item.link}
             target="_blank"
