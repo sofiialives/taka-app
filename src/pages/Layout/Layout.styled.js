@@ -8,8 +8,6 @@ export const HeaderStyled = styled.header`
 `;
 
 export const HeaderContainer = styled.div`
-  display: flex;
-  align-items: center;
   padding: 30px 0 0;
 
   .logo-icon {
@@ -22,6 +20,8 @@ export const HeaderContainer = styled.div`
   }
 
   @media ${device.desktop} {
+    display: flex;
+    align-items: center;
     padding: 30px 0;
   }
 `;

@@ -7,7 +7,6 @@ export const ThirdBackground = styled.section`
   background-image: url(${background});
   background-repeat: no-repeat;
   background-position: center;
-  background-color: var(--home-bg);
   padding: 404px 0;
   margin-top: 112px;
 
@@ -18,6 +17,9 @@ export const ThirdBackground = styled.section`
     top: -72px;
     left: 50%;
     transform: translateX(-50%);
+  }
+  @media ${device.desktop} {
+    margin-top: 95px;
   }
 `;
 

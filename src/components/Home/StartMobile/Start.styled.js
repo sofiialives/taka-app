@@ -7,7 +7,6 @@ export const StartBackground = styled.section`
   background-image: url(${background});
   background-repeat: no-repeat;
   background-position: center;
-  background-color: var(--home-bg);
 
   .logo-icon {
     width: 159px;

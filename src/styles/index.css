@@ -51,7 +51,10 @@ body {
 .slick-track {
   display: flex !important;
   align-items: stretch;
-  gap: 20px;
+  gap: 48px;
+  @media only screen and (min-width: 1440px) {
+    gap: 20px;
+  }
 }
 
 .slick-slide {
@@ -61,6 +64,7 @@ body {
 .slick-list {
   overflow: visible !important;
 }
+
 main {
   flex-grow: 1;
 }

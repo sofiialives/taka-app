@@ -1,8 +1,8 @@
 import { useTranslation } from "react-i18next";
 import { HeaderNavLink } from "./Header.styled.js";
 import { NavListStyled, NavStyled } from "./Header.styled.js";
-import Scroll from "../Scroll/Scroll.jsx";
 import { useMediaQuery } from "react-responsive";
+import HeaderScroll from "./HeaderScroll.jsx";
 
 const HeaderNav = ({ hideScroll }) => {
   const { t } = useTranslation();
@@ -29,7 +29,7 @@ const HeaderNav = ({ hideScroll }) => {
           ))}
         </NavListStyled>
       ) : (
-        !hideScroll && <Scroll array={navigation} header={true} />
+        !hideScroll && <HeaderScroll array={navigation} />
       )}
     </NavStyled>
   );

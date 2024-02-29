@@ -12,7 +12,9 @@ export const StackTitle = styled.h2`
   font-size: 24px;
   line-height: 2;
   color: var(--stack-color);
+
   @media ${device.desktop} {
+    white-space: nowrap;
     font-size: 36px;
     line-height: 1.3;
     color: var(--black-text-color);

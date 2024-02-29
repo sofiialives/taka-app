@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import background from "assets/images/fourthhome.png";
+import { device } from "styles/deviceSize";
 
 export const FourthBackground = styled.section`
   position: relative;
@@ -8,7 +9,7 @@ export const FourthBackground = styled.section`
   background-position: center;
   background-color: var(--black-color);
   padding: 404px 0;
-  overflow: hidden; 
+  overflow: hidden;
 
   &::before {
     content: "";
@@ -27,5 +28,11 @@ export const FourthBackground = styled.section`
     top: 63.5px;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
+  @media ${device.desktop} {
+    margin-top: 95px;
+    &::before {
+      display: none;
+    }
   }
 `;
