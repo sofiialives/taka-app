@@ -34,7 +34,7 @@ export const GalleryText = styled.p`
   margin-bottom: 20px;
 `;
 
-export const GalleryStyled = styled.section`
+export const GalleryStyled = styled.div`
   padding: 0;
   @media ${device.desktop} {
     padding: 90px 0;

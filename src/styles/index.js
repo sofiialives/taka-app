@@ -37,6 +37,10 @@ export const GlobalStyle = createGlobalStyle`
      --form-input: #C8C7C7;
      --black-contact: #3A3939;
      --clients-text: #A1A1A1;
+     --home-bg: #b5b8c2;
+     --advantagy-text: #717070;
+     --circle-grey: #EFEFEF;
+     --circle-black: #CCCBCB;
      --header-gradient: linear-gradient(180deg, rgba(173, 165, 165, 0.4233) 131.91%, rgba(217, 217, 217, 0) 338.3%);
  
       /* FONTS */

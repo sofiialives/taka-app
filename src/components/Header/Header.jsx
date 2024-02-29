@@ -1,18 +1,14 @@
 import { useTranslation } from "react-i18next";
 import { HeaderNavLink } from "./Header.styled.js";
 import { NavListStyled, NavStyled } from "./Header.styled.js";
-import { useEffect, useState } from "react";
 import Scroll from "../Scroll/Scroll.jsx";
+import { useMediaQuery } from "react-responsive";
 
-const HeaderNav = () => {
+const HeaderNav = ({ hideScroll }) => {
   const { t } = useTranslation();
-  const [isDesktop, setIsDesktop] = useState(false);
-
-  useEffect(() => {
-    const handleResize = () => setIsDesktop(window.innerWidth >= 1440);
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
+  const isDesktop = useMediaQuery({
+    query: "(min-width: 1440px)",
+  });
 
   const navigation = [
     { route: "/", component: `${t("header.home")}` },
@@ -33,7 +29,7 @@ const HeaderNav = () => {
           ))}
         </NavListStyled>
       ) : (
-        <Scroll array={navigation} header={true} />
+        !hideScroll && <Scroll array={navigation} header={true} />
       )}
     </NavStyled>
   );

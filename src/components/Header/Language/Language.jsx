@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { LangList, LangBtn } from "./Language.styled";
 
-const Language = () => {
+const Language = ({ isHome }) => {
   const { i18n } = useTranslation();
 
   const languages = [
@@ -13,7 +13,7 @@ const Language = () => {
     i18n.changeLanguage(lng);
   };
   return (
-    <LangList>
+    <LangList isHome={isHome}>
       {languages.map((item, index) => (
         <li key={index}>
           <LangBtn onClick={() => changeLanguage(item.code)}>
