@@ -1,10 +1,10 @@
-import{a as e,d as i,j as o,I as s}from"./index-DxDQkIBn.js";import{C as n,N as r}from"./ContactForm.styled-DymAqJAA.js";const c=e.h2`
+import{u as i,d as a,j as o,I as s}from"./index-BJbLTaHr.js";import{C as n,N as r}from"./ContactForm.styled-DGiC6alW.js";const c=i.h2`
   position: relative;
   font-family: var(--arimo-font-bold);
   font-weight: 700;
   color: var(--stack-color);
   margin-bottom: 40px;
-  @media ${i.desktop} {
+  @media ${a.desktop} {
     font-size: 48px;
     line-height: 1;
     color: var(--clients-text);
@@ -19,4 +19,4 @@ import{a as e,d as i,j as o,I as s}from"./index-DxDQkIBn.js";import{C as n,N as 
       height: 1px;
     }
   }
-`,x=({title:t,children:a})=>o.jsx(n,{className:"section",children:o.jsxs("div",{className:"container",children:[o.jsx(r,{to:"/",children:o.jsx(s,{id:"logo",className:"logo-icon"})}),o.jsx(c,{children:t}),a]})});export{x as B};
+`,x=({title:t,children:e})=>o.jsx(n,{className:"section",children:o.jsxs("div",{className:"container",children:[o.jsx(r,{to:"/",children:o.jsx(s,{id:"logo",className:"logo-icon"})}),o.jsx(c,{children:t}),e]})});export{x as B};
