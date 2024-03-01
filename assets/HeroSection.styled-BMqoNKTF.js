@@ -1,4 +1,4 @@
-import{u as o,d as e}from"./index-CsmB_2dp.js";const a="/taka-app/assets/hero-DUZjNzXb.jpg",t=o.h1`
+import{u as o,d as e}from"./index-Bffr_-NO.js";const a="/taka-app/assets/hero-DUZjNzXb.jpg",t=o.h1`
   display: none;
   @media ${e.desktop} {
     display: block;

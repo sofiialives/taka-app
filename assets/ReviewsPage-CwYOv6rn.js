@@ -1,4 +1,4 @@
-import{u as i,d as a,a as r,j as e}from"./index-CsmB_2dp.js";import{B as c}from"./Bar-CYK-4Nz6.js";import{m as p}from"./motion-cGmRBcIG.js";import"./ContactForm.styled-N37FY3Ka.js";const l="/taka-app/assets/man-BeGxZvhW.png",m="/taka-app/assets/womanReview-CdTfo1N3.png",x="/taka-app/assets/thirdreview-Bnc1aQCK.png",d=i.ul`
+import{u as i,d as a,a as r,j as e}from"./index-Bffr_-NO.js";import{B as c}from"./Bar-eKtpAdA2.js";import{m as p}from"./motion-BXGpgztK.js";import"./ContactForm.styled-BxTQSpQJ.js";const l="/taka-app/assets/man-BeGxZvhW.png",m="/taka-app/assets/womanReview-CdTfo1N3.png",x="/taka-app/assets/thirdreview-Bnc1aQCK.png",d=i.ul`
   display: flex;
   flex-direction: column;
   gap: 76px;
