@@ -7,7 +7,6 @@ body {
   font-style: normal;
   font-size: var(--font-size);
   line-height: var(--line-height);
-  overflow-x: hidden;
 
   color: var(--text-color);
   background-color: var(--bg-color);
