@@ -8,6 +8,7 @@ export const HeaderStyled = styled.header`
 `;
 
 export const HeaderContainer = styled.div`
+  overflow: hidden;
   padding: 30px 0 0;
 
   .logo-icon {
