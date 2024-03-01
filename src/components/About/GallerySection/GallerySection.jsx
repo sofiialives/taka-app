@@ -6,7 +6,7 @@ const GallerySection = () => {
   const { t } = useTranslation();
   return (
     <GalleryStyled className="section">
-      <div className="container">
+      <div className="container" style={{ overflow: "hidden" }}>
         <GalleryTitle>{t("gallery.gallery")}</GalleryTitle>
         <GalleryList />
       </div>
