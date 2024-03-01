@@ -1,4 +1,4 @@
-import{a as n,j as e,I as x,u as o,d as i,N as h,S as d,e as f,f as y,r as $}from"./index-FnrkLLEN.js";import{H as u,a as k,b as j}from"./HeroSection.styled-DpfKJ2J4.js";import{m as p}from"./motion-DQHXiz6O.js";import{e as v}from"./eightgroup-oKGK3XUx.js";import{i as w}from"./photoArray-CoVLKn1x.js";const b="/taka-app/assets/hero-mobile-IxwLTDQ3.png",S=()=>{const{t}=n();return e.jsx(u,{className:"hero-section",children:e.jsxs("div",{className:"container",children:[e.jsx(p.div,{initial:{x:"-100%",opacity:0},animate:{x:0,opacity:1},transition:{duration:2.5},children:e.jsx(k,{children:t("hero.title")})}),e.jsxs(j,{children:[e.jsx(x,{id:"logo",className:"logo-icon"}),e.jsx("img",{src:b,alt:"woman"})]})]})})},T="/taka-app/assets/woman-CkyI9V5-.png",z=o.div`
+import{a as n,j as e,I as x,u as o,d as i,N as h,S as d,e as f,f as y,r as $}from"./index-BVmqSKzz.js";import{H as u,a as k,b as j}from"./HeroSection.styled-REw4NI4u.js";import{m as p}from"./motion-DbMKSKlU.js";import{e as v}from"./eightgroup-oKGK3XUx.js";import{i as w}from"./photoArray-CK6yg7rC.js";const b="/taka-app/assets/hero-mobile-IxwLTDQ3.png",S=()=>{const{t}=n();return e.jsx(u,{className:"hero-section",children:e.jsxs("div",{className:"container",children:[e.jsx(p.div,{initial:{x:"-100%",opacity:0},animate:{x:0,opacity:1},transition:{duration:2.5},children:e.jsx(k,{children:t("hero.title")})}),e.jsxs(j,{children:[e.jsx(x,{id:"logo",className:"logo-icon"}),e.jsx("img",{src:b,alt:"woman"})]})]})})},T="/taka-app/assets/woman-CkyI9V5-.png",z=o.div`
   display: flex;
   gap: 135px;
 `,N=o.h2`
@@ -46,8 +46,9 @@ import{a as n,j as e,I as x,u as o,d as i,N as h,S as d,e as f,f as y,r as $}fro
   margin-left: ${t=>t.header?"18px":"0"};
 
   .image {
-    width: 344px;
+    width: 307px;
     height: 382px;
+    object-fit: cover;
     @media ${i.desktop} {
       width: 400px;
       height: 445px;
@@ -249,7 +250,7 @@ import{a as n,j as e,I as x,u as o,d as i,N as h,S as d,e as f,f as y,r as $}fro
   }
 `,At=o.ul`
   display: flex;
-  gap: 20px;
+  gap: 14px;
 `,_t=o.div`
   background-color: var(--bg-grey);
 `,Bt=()=>{const t=[{img:Lt},{img:Ct},{img:Mt},{img:It},{img:Et},{img:Gt}];return e.jsx(At,{children:t.map((a,s)=>e.jsx("li",{children:e.jsx("img",{src:a.img,alt:"exibition"})},s))})},Jt="/taka-app/assets/firstscroll-C3C6k_7b.png",Wt="/taka-app/assets/secondscroll-dWpJ9pAi.png",Rt="/taka-app/assets/thirdscroll-CzkYwyou.png",Ut="/taka-app/assets/fourthscroll-BKyr3Xc2.png",Vt="/taka-app/assets/fifthscroll-zPpY-dz7.png",Yt=()=>{const t=[{image:Jt},{image:Wt},{image:Rt},{image:Ut},{image:Vt}];return e.jsx(c,{array:t,hide:!0})},Zt=()=>{const{t}=n(),a=$.useMediaQuery({query:"(min-width: 1440px)"});return e.jsx(_t,{className:"section",children:e.jsxs("div",{className:"container",children:[e.jsx(Ht,{children:t("exhibition.exhibition")}),e.jsx(qt,{children:t("exhibition.title")}),e.jsx(Pt,{children:t("exhibition.annual")}),a?e.jsx(Bt,{}):e.jsx(Yt,{})]})})},te=()=>e.jsxs(p.section,{initial:{opacity:0},animate:{opacity:1},exit:{opacity:0},transition:{duration:2.5},children:[e.jsx(S,{}),e.jsx(M,{}),e.jsx(ut,{}),e.jsx(Dt,{}),e.jsx(Zt,{})]});export{te as default};
