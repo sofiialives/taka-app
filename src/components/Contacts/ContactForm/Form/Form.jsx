@@ -1,5 +1,4 @@
 import { useRef } from "react";
-import { toast } from "react-toastify";
 import emailjs from "@emailjs/browser";
 import { useTranslation } from "react-i18next";
 import {
@@ -23,14 +22,9 @@ const FormContact = () => {
       .sendForm("service_5iiiovo", "template_u0cnr98", form.current, {
         publicKey: "XdZgWkRPqJU3nI6iF",
       })
-      .then(
-        () => {
-          navigate("/email");
-        },
-        () => {
-          toast.error(`${t("contacts.notifyError")}`);
-        }
-      );
+      .then(() => {
+        navigate("/email");
+      });
     form.current.reset();
   };
   return (

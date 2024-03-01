@@ -30,7 +30,7 @@ export const ExAfterTitle = styled.p`
 
 export const ExList = styled.ul`
   display: flex;
-  gap: 20px;
+  gap: 14px;
 `;
 
 export const ExibitionStyled = styled.div`

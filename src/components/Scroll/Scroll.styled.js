@@ -8,8 +8,9 @@ export const ScrollDiv = styled.div`
   margin-left: ${(props) => (props.header ? "18px" : "0")};
 
   .image {
-    width: 344px;
+    width: 307px;
     height: 382px;
+    object-fit: cover;
     @media ${device.desktop} {
       width: 400px;
       height: 445px;
