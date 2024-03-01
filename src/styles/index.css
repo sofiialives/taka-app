@@ -12,11 +12,13 @@ body {
   background-color: var(--bg-color);
 }
 .container {
+  overflow-x: hidden;
   padding: 0 15px;
   margin: 0 auto;
   max-width: 307px;
 }
 .footer-container {
+  overflow-x: hidden;
   padding: 0 15px;
   margin: 0 auto;
   max-width: 319px;
