@@ -17,7 +17,7 @@ const Exhibition = () => {
 
   return (
     <ExibitionStyled className="section">
-      <div className="container">
+      <div className="container" style={{ overflow: "hidden" }}>
         <ExText>{t("exhibition.exhibition")}</ExText>
         <ExTitle>{t("exhibition.title")}</ExTitle>
         <ExAfterTitle>{t("exhibition.annual")}</ExAfterTitle>
