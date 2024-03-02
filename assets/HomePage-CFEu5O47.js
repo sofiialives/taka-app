@@ -1,4 +1,4 @@
-import{u as o,a as c,j as t,L as A,I as l,d as x,r as v,h as k,b as r,c as I,A as N}from"./index-Dp-DrunZ.js";import{m}from"./motion-Cs81sdl6.js";import{e as z}from"./eightgroup-oKGK3XUx.js";const C="/taka-app/assets/firsthome-DQkc468h.png",D=o.section`
+import{u as o,a as c,j as t,L as A,I as l,d as x,r as v,h as k,b as r,c as I,A as N}from"./index-l3V-gbF2.js";import{m}from"./motion-BIZI8Kfq.js";import{e as z}from"./eightgroup-oKGK3XUx.js";const C="/taka-app/assets/firsthome-DQkc468h.png",D=o.section`
   position: relative;
   padding: 404px 0;
   background-image: url(${C});

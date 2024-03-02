@@ -1,4 +1,4 @@
-import{u as t,d as o,N as a}from"./index-Dp-DrunZ.js";const n=t.h2`
+import{u as t,d as o,N as a}from"./index-l3V-gbF2.js";const n=t.h2`
   font-family: var(--arimo-font-bold);
   font-weight: 700;
   font-size: 32px;
