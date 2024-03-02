@@ -7,19 +7,12 @@ import sixth from "assets/images/exsixth.png";
 import { ExList } from "./Exibition.styled";
 
 const ExibitionList = () => {
-  const exs = [
-    { img: first },
-    { img: second },
-    { img: third },
-    { img: fourth },
-    { img: fifth },
-    { img: sixth },
-  ];
+  const exs = [first, second, third, fourth, fifth, sixth];
   return (
     <ExList>
       {exs.map((ex, index) => (
         <li key={index}>
-          <img src={ex.img} alt="exibition" />
+          <img src={ex} alt="exibition" />
         </li>
       ))}
     </ExList>

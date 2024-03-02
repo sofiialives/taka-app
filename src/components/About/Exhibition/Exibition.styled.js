@@ -4,6 +4,7 @@ import { device } from "styles/deviceSize";
 export const ExText = styled.p`
   font-family: var(--inter-font-medium);
   font-weight: 500;
+  font-size: 20px;
   color: var(--black-color);
 `;
 
@@ -14,6 +15,7 @@ export const ExTitle = styled.h2`
   margin: 22px 0 51px;
   color: var(--black-color);
   @media ${device.desktop} {
+    font-size: 36px;
     margin: 20px 0;
   }
 `;
@@ -35,4 +37,10 @@ export const ExList = styled.ul`
 
 export const ExibitionStyled = styled.div`
   background-color: var(--bg-grey);
+`;
+
+export const ExibitionsList = styled.ul`
+  display: flex;
+  flex-direction: column;
+  gap: 62px;
 `;
